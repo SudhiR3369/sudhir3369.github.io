@@ -20,6 +20,7 @@
 
   <!-- Custom styles for this template -->
   <link href="css/resume.min.css" rel="stylesheet">
+  <link href="css/flipclock.css" rel="stylesheet">
 
 </head>
 
@@ -59,10 +60,14 @@
     </div>
   </nav>
 
-  <div class="container-fluid p-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
-      <div class="w-100">        
+  <div class="container-fluid p-0">    
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">            
+      <div class="w-100"> 
+          <div class="dhosta-clock-wrp p-3 p-lg-5 bg-primary">        
+              <div class="subheading mb-5">Dashain Countdown                  
+                </div>
+            <div id="dhosta-clock"></div>
+            </div>       
         <h1 class="mb-0">Sudhir
           <span class="text-primary">Shrestha</span>
         </h1>
@@ -267,9 +272,10 @@
 
   <!-- Plugin JavaScript -->
   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
+  <script src="js/flipclock.min.js"></script>
   <!-- Custom scripts for this template -->
-  <script src="js/resume.min.js"></script>
+  <script src="js/resume.min.js"></script>  
+  <script src="js/dhosta.js"></script>
 
 </body>
 
